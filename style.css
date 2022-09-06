@@ -1,0 +1,317 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header{
+  background-color: blue;
+  height: 500px;
+}
+nav{
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  
+}
+.nav-item{
+  margin-right: 30px;
+  color: white;
+  
+}
+.nav-item-active{
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.logo{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.header-text{
+  margin-top: 100px;
+  margin-left: 60px;
+  color: white;
+  float: left;
+}
+.header-image{
+  margin-top: 100px;
+  float: right;
+}
+.companies{
+  margin: 50px;
+}
+.company-items{
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.api-heading{
+font-weight: 70px;
+margin-left: 60px;
+
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 7;
+  align-items: center;
+  margin-left: 50px;
+}
+.card{
+  margin-left: 50px;
+  width: 20%;
+  height: 250px;
+  background: transparent;
+
+}
+.card-active{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 15px rgb(0, 0, 0);
+  border-radius: 10px;
+  height: 250px;
+  padding: 0px 20px;
+
+  
+}
+.card-logo{
+ margin-left: 0px;
+ margin-top: 15px;
+}
+.card-head-active{
+  margin-left: 10px;
+  color: rgb(76, 79, 247);
+}
+.card-body{
+  text-align: justify;
+}
+
+.blog-heading{
+  margin-left: 60px;
+}
+.blog-cards{
+  display:flex;
+  width: 100%;
+  
+  margin-left: 0px;
+}
+
+.blog-card{
+  display: flex;
+  background-color: transparent;
+  box-shadow: 0px 10px 10px black;
+  margin-left: 50px;
+  width:100%;
+
+}
+.blog-card div:nth-child(3){
+  order:1;
+}
+
+
+
+ .blog-card div:nth-child(2){
+  order:3 ;
+ margin-left: 50px;  }
+
+
+.faq-section{
+  margin-left: 60px;
+  display: inline-block;
+  margin-top: 100px;
+
+ 
+}
+
+.faq-content{
+  float: left;
+}
+.faq-content button{
+background-color: rgb(37, 113, 254);
+border-style: none;
+padding: 10px 15px;
+border-radius: 10px;
+color: black;
+font-weight: bolder;
+margin-top: 50px;
+}
+
+
+
+.faq-image{
+  float: right;
+  margin-left: 250px;
+}
+
+.download-section{
+  margin-left: 60px;
+  margin-top: 50px;
+  display: flex;
+  cursor: pointer;
+
+}
+ .download-content{
+  float: left;
+ }
+ .download-email{
+  float: right;
+  margin-left: 800px;
+  margin-top: 20px;
+  border-radius: 15px;
+  
+  
+ }
+ .download-email input,button{
+  border-radius: 10px;
+  padding: 5px  15px;
+ }
+ .download-email button{
+  background-color: rgb(54, 51, 253);
+  border-style: none;
+  cursor: pointer;
+ 
+ }
+
+/* <.......footert section.....> */
+
+ .footer-section{
+  background-color: blue;
+  display: flex;
+ }
+ .footer-logo{
+  margin-left: 50px;
+  margin-top: 0px;
+  
+ }
+ .list{
+display: flex;
+margin-left: -40px;
+
+
+
+}
+.list-items{
+  margin-left: 30px;
+  list-style: none;
+  
+}
+
+.footer-right{
+  float: right;
+  position: absolute;
+  right: 30px;
+  display: flex;
+}
+.footer-logos{
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+
+.logos-list{
+display: flex;
+margin-top: 70px;
+margin-right: 50px; 
+cursor: pointer;
+}
+.list-items{
+  cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width:912px){
+
+  body{
+    
+  }
+  .nav-item{
+  font-size: 15px;
+  margin-right: 13px;}
+
+  .logo{
+    width: 50px;
+    margin-top: 30px;
+  }
+  .company-items{
+    font-size: 10px;
+  }
+
+  .header-image{
+  display: none;
+
+  }
+  .api-heading{
+  margin: 0;
+  text-align: left;
+  font-size: 40px;
+  margin-left: 200px;
+  
+  justify-content: center;
+
+
+}
+
+  .cards{
+flex-direction: column;
+align-content: center;
+justify-content: center;
+gap: 0px;
+
+margin-top: 50px;
+}
+
+.card{
+margin: 0;
+padding: 20;
+
+}
+
+
+.card-active{
+  margin: 0;
+}
+
+.blog-cards{
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.blog-card{
+
+  max-width: 100px;
+
+}
+
+.blog-image img{
+  height: 200px;
+  width: 250px;
+}
+.download-email{
+  margin: 0;
+}
+
+.faq-conten{
+float: none;
+}
+ .faq-image{
+  display: none;
+ }
+
+
+
+
+
+}
